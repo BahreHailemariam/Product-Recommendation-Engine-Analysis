@@ -81,3 +81,45 @@ Product_Recommendation_Engine/
 ├── requirements.txt
 └── README.md
 ```
+
+## 🗄️ Data Sources
+`products.csv`
+
+- Product ID
+
+- Category
+
+- Brand
+
+- Price
+
+- Description
+
+`transactions.csv`
+
+- User ID
+
+- Product ID
+
+- Order ID
+
+- Timestamp
+
+- Quantity
+
+`user_activity.csv`
+
+- Page views
+
+- Click events
+
+- Add-to-cart
+
+- Wishlists
+
+`customer.csv`
+
+- Basic demographic info
+
+- Loyalty tier
+
