@@ -30,3 +30,18 @@ The goal is to help e-commerce and retail businesses **increase conversion, boos
 ✔ Develop dashboards for insights (Power BI)<br />
 ✔ Provide SQL scripts for reproducible feature engineering<br />
 
+## 🧱 Project Architecture
+
+```java
+Raw Data (products, customers, transactions, clicks)
+        ↓
+SQL Transformation (cleaning, sessionization, RFM metrics)
+        ↓
+Feature Store (user vectors, product vectors)
+        ↓
+ML Models (ALS, cosine similarity, hybrid engine)
+        ↓
+Recommendation Outputs
+        ↓
+Power BI Dashboard
+```
