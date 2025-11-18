@@ -219,3 +219,19 @@ similarity_matrix = cosine_similarity(product_tfidf_matrix)
 ```ini
 FinalScore = 0.6 * CF_Score + 0.4 * Content_Similarity
 ```
+
+## 📤 Recommendation Output Examples
+
+Output tables used for dashboards:
+
+**Top-N Recommendations per User**
+
+| user_id | product_id | score |
+| ------- | ---------- | ----- |
+| 101     | P001       | 0.91  |
+| 101     | P145       | 0.87  |
+
+**Similar Products**
+
+| product_id | similar_product_id | similarity |
+| ---------- | ------------------ | ---------- |
