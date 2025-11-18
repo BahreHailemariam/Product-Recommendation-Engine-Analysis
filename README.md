@@ -347,4 +347,7 @@ streamlit run scripts/app.py
 
 - Reinforcement learning for dynamic ranking
 
+## 🙌 Contributing
+
+Pull requests are welcome!
 
