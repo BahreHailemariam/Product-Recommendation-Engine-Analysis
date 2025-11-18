@@ -335,4 +335,16 @@ streamlit run scripts/app.py
 
 - Hybrid models outperform single-type recommenders
 
+## 🚀 Future Enhancements
+
+- Deep learning–based embeddings (Siamese nets)
+
+- Real-time recommendations using API + Redis
+
+- A/B testing framework
+
+- Context-aware recommendations (device, time, location)
+
+- Reinforcement learning for dynamic ranking
+
 
