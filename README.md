@@ -287,3 +287,39 @@ In `app.py`:
 - Basket size impact
 
 **🔢 Sample DAX Measures**
+```DAX
+TopRecommendations =
+CALCULATE(
+    COUNTROWS(Recommendations),
+    FILTER(Recommendations, Recommendations[score] > 0.8)
+)
+```
+
+## ▶️ How to Run the Project
+
+**1️⃣ Install requirements**
+
+```nginx
+pip install -r requirements.txt
+
+```
+
+**2️⃣ Run ETL**
+
+```bash
+python scripts/load_data.py
+python scripts/clean_data.py
+python scripts/feature_engineering.py
+```
+
+**3️⃣ Train recommender**
+
+```bash
+python scripts/train_model.py
+```
+
+**4️⃣ Launch the Streamlit app**
+```arduino
+streamlit run scripts/app.py
+```
+
