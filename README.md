@@ -247,3 +247,43 @@ In `app.py`:
 - Show similar products
 
 - Explainability (top contributing features)
+
+## 📈 5. Power BI Dashboard Overview
+**Pages Included**
+**1️⃣ Product Performance & Popularity**
+
+- Top sellers
+
+- Trending products
+
+- Category demand
+
+**2️⃣ User Behavior Insights**
+
+- Engagement funnel
+
+- User segments
+
+- RFM clusters
+
+**3️⃣ Recommendation Quality Metrics**
+
+- Hit rate
+
+- Recall@k / Precision@k
+
+- Lift curves
+
+**4️⃣ Product Similarity Matrix**
+
+- Visual heatmap
+
+- Clustering
+
+**5️⃣ Conversion Lift from Recommendations**
+
+- Before vs after
+
+- Basket size impact
+
+**🔢 Sample DAX Measures**
