@@ -186,3 +186,15 @@ pivot = df.pivot_table(index="user_id", columns="product_id",
                        values="interaction_score", fill_value=0)
 
 ```
+
+## 🤖 3. Recommendation Engine (ML Models)
+
+Implemented in `train_model.py`
+
+**Algorithms Used**
+
+✔ **Collaborative Filtering (ALS)**
+✔ **Content-Based Filtering (Cosine Similarity)**
+✔ **Hybrid Recommendation Engine combining both**
+
+**Collaborative Filtering Example**
