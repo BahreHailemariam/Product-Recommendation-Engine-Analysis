@@ -323,3 +323,16 @@ python scripts/train_model.py
 streamlit run scripts/app.py
 ```
 
+## 🧩 Key Insights You Can Expect
+
+- Customers have distinct behavioral clusters
+
+- Certain products serve as “gateway items” leading to larger baskets
+
+- Product similarity clusters reveal cross-selling opportunities
+
+- Collaborative filtering improves personalization accuracy
+
+- Hybrid models outperform single-type recommenders
+
+
