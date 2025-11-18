@@ -45,3 +45,39 @@ Recommendation Outputs
         ↓
 Power BI Dashboard
 ```
+
+## 📂 Folder Structure
+
+```pgsql
+Product_Recommendation_Engine/
+│
+├── data/
+│   ├── raw/                     # CSVs or database exports
+│   └── processed/               # Cleaned & engineered datasets
+│
+├── scripts/
+│   ├── load_data.py             # Load & inspect datasets
+│   ├── clean_data.py            # Cleaning, preprocessing
+│   ├── feature_engineering.py   # User/product vectors, RFM… 
+│   ├── train_model.py           # Recommendation algorithms
+│   └── app.py                   # Streamlit app for recs
+│
+├── sql/
+│   ├── 01_create_tables.sql
+│   ├── 02_cleaning.sql
+│   ├── 03_feature_engineering.sql
+│   ├── 04_metrics.sql
+│   ├── 05_views_for_powerbi.sql
+│
+├── dashboard/
+│   └── PowerBI_Report_Spec.md   # Dashboard specification
+│
+├── models/
+│   └── recommendation_model.pkl # Trained model
+│
+├── docs/
+│   └── Workflow_Spec.md         # End-to-end workflow documentation
+│
+├── requirements.txt
+└── README.md
+```
