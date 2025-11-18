@@ -235,3 +235,15 @@ Output tables used for dashboards:
 
 | product_id | similar_product_id | similarity |
 | ---------- | ------------------ | ---------- |
+
+## 🌐 4. Streamlit App (Optional UI)
+
+In `app.py`:
+
+- User login / ID input
+
+- Display top recommended products
+
+- Show similar products
+
+- Explainability (top contributing features)
