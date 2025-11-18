@@ -193,8 +193,29 @@ Implemented in `train_model.py`
 
 **Algorithms Used**
 
-✔ **Collaborative Filtering (ALS)**
-✔ **Content-Based Filtering (Cosine Similarity)**
+✔ **Collaborative Filtering (ALS)** <br />
+✔ **Content-Based Filtering (Cosine Similarity)** <br />
 ✔ **Hybrid Recommendation Engine combining both**
 
 **Collaborative Filtering Example**
+```python
+
+from implicit.als import AlternatingLeastSquares
+
+model = AlternatingLeastSquares(factors=50, regularization=0.1)
+model.fit(user_item_matrix)
+
+```
+**Content-Based Similarity**
+
+```python
+from sklearn.metrics.pairwise import cosine_similarity
+
+similarity_matrix = cosine_similarity(product_tfidf_matrix)
+
+```
+**Hybrid Scoring Logic**
+
+```ini
+FinalScore = 0.6 * CF_Score + 0.4 * Content_Similarity
+```
