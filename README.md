@@ -123,3 +123,27 @@ Product_Recommendation_Engine/
 
 - Loyalty tier
 
+## 🧼 1. Data Cleaning
+
+Performed in `clean_data.py` and `02_cleaning.sql`
+
+- Remove duplicates
+
+- Standardize category/brand fields
+
+- Fix missing product descriptions
+
+- Normalize timestamps
+
+- Convert browsing logs into user sessions
+
+- Remove outliers or fraudulent activity
+
+Example SQL:
+```sql
+
+UPDATE products
+SET category = LOWER(TRIM(category));
+
+```
+
