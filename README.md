@@ -1,7 +1,8 @@
 # 🛒 Product Recommendation Engine Analysis
 
 _A complete analytics & machine learning project for building product recommendations using user behavior, purchase history, and item similarity._
-📌 Project Overview
+
+## 📌 Project Overview
 
 This project implements a **Product Recommendation Engine** using real-world e-commerce behavioral patterns such as:
 
@@ -18,4 +19,14 @@ This project implements a **Product Recommendation Engine** using real-world e-c
 - Hybrid scoring for personalization
 
 The goal is to help e-commerce and retail businesses **increase conversion, boost average order value (AOV), and improve user retention** through intelligent product suggestions.
+
+## 🎯 Objectives
+
+✔ Build a scalable recommendation engine<br />
+✔ Analyze customer behavior and purchase patterns<br />
+✔ Create user–item interaction matrices<br />
+✔ Compute similarity scores between products<br />
+✔ Generate personalized product recommendations<br />
+✔ Develop dashboards for insights (Power BI)<br />
+✔ Provide SQL scripts for reproducible feature engineering<br />
 
