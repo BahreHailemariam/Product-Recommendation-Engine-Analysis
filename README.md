@@ -147,3 +147,42 @@ SET category = LOWER(TRIM(category));
 
 ```
 
+## 🧠 2. Feature Engineering
+
+Defined in `feature_engineering.py` and `03_feature_engineering.sql`
+
+**User-level features**
+
+- RFM (Recency, Frequency, Monetary)
+
+- User preference vector (category weights)
+
+- Interaction scores
+
+- User embedding from matrix factorization
+
+**Product-level features**
+
+- TF-IDF vectors (title & description)
+
+- Category similarity
+
+- Price similarity
+
+- Popularity score
+
+- Product embedding (ALS / word2vec style)
+
+**User–Item Interaction Matrix**
+
+Rows = Users
+Columns = Products
+Values = interactions (views, clicks, purchases)
+
+Example:
+```python
+
+pivot = df.pivot_table(index="user_id", columns="product_id",
+                       values="interaction_score", fill_value=0)
+
+```
