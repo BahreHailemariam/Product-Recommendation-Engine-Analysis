@@ -87,3 +87,12 @@ The report contains **five pages:**
 - avg_fill_level
 
 - bin_count
+
+### 2.2 Relationships
+
+| From Table | Field    | → | To Table         | Field    | Cardinality |
+| ---------- | -------- | - | ---------------- | -------- | ----------- |
+| `bins`     | bin_id   | → | `sensor_logs`    | bin_id   | 1 → Many    |
+| `bins`     | zone_id  | → | `zone_summary`   | zone_id  | 1 → 1       |
+| `bins`     | bin_id   | → | `forecast_table` | bin_id   | 1 → Many    |
+| `gps_logs` | truck_id | → | truck metadata   | truck_id | Many → 1    |
