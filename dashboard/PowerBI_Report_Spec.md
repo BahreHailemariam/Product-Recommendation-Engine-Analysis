@@ -130,13 +130,13 @@ Provide executives with real-time KPIs and trends on waste collection operations
 
 - Total Bins
 
-Average Fill Level (%)
+- Average Fill Level (%)
 
-Number of Overflow Alerts
+- Number of Overflow Alerts
 
-Daily Tonnes Collected
+- Daily Tonnes Collected
 
-Avg Pickup Frequency (days)
+- Avg Pickup Frequency (days)
 
 **2️⃣ Fill Level Trend (Line Chart)**
 
