@@ -20,4 +20,16 @@ The report contains **five pages:**
 
 - **Cost Optimization & Sustainability**
 
-  
+ ## 🗂️ 2. Data Model Specification
+### 2.1 Tables Used
+1. `bins`
+
+- bin_id
+
+- lat, lon
+
+- zone_id
+
+- capacity
+
+- geom (WKT or lat/lon) 
