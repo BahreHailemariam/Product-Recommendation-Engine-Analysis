@@ -162,20 +162,20 @@ Buckets:
 
 Columns:
 
-bin_id
+- bin_id
 
-zone
+- zone
 
-last_fill_level
+- last_fill_level
 
-last_pickup_date
+- last_pickup_date
 
-predicted_fill (optional)
+- predicted_fill (optional)
 
 **5️⃣ Truck Activity Summary**
 
-Bar chart: Avg speed per truck
+- Bar chart: Avg speed per truck
 
-Line chart: Distance traveled per day
+- Line chart: Distance traveled per day
 
-KPI: Total idle time
+- KPI: Total idle time
