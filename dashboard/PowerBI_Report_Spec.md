@@ -62,11 +62,11 @@ The report contains **five pages:**
 
 4. `bin_distance `(optional)
 
-bin_from
+- bin_from
 
-bin_to
+- bin_to
 
-distance_km
+- distance_km
 
 5. `forecast_table`
 
