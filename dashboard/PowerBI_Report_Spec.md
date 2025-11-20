@@ -140,23 +140,23 @@ Avg Pickup Frequency (days)
 
 **2️⃣ Fill Level Trend (Line Chart)**
 
-X-axis: timestamp
+- X-axis: timestamp
 
-Y-axis: Avg fill level
+- Y-axis: Avg fill level
 
-Legend: zone (optional)
+- Legend: zone (optional)
 
 **3️⃣ Bin Capacity Utilization (Donut Chart)**
 
 Buckets:
 
-0–30%
+- 0–30%
 
-30–60%
+- 30–60%
 
-60–80%
+- 60–80%
 
-80–100% (overflow risk)
+- 80–100% (overflow risk)
 
 **4️⃣ Top 10 Critical Bins (Table)**
 
