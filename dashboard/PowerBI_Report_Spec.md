@@ -82,8 +82,8 @@ upper_bound
 
 6. `zone_summary`** (materialized view)**
 
-zone_id
+- zone_id
 
-avg_fill_level
+- avg_fill_level
 
-bin_count
+- bin_count
