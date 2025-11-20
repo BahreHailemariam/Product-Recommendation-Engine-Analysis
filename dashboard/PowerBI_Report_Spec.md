@@ -50,15 +50,15 @@ The report contains **five pages:**
 
 3. `gps_logs`
 
-id
+- id
 
-truck_id
+- truck_id
 
-lat, lon
+- lat, lon
 
-speed
+- speed
 
-gps_time
+- gps_time
 
 4. `bin_distance `(optional)
 
