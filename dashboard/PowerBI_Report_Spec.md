@@ -96,3 +96,24 @@ The report contains **five pages:**
 | `bins`     | zone_id  | → | `zone_summary`   | zone_id  | 1 → 1       |
 | `bins`     | bin_id   | → | `forecast_table` | bin_id   | 1 → Many    |
 | `gps_logs` | truck_id | → | truck metadata   | truck_id | Many → 1    |
+
+## 🎨 3. Theme & Visual Style
+**Color Palette (Recommended)**
+
+- **Green** — low fill level, efficient routes
+
+- **Orange** — medium fill level
+
+- **Red** — overflow risk, inefficiencies
+
+- **Blue** — cost, fleet KPIs
+
+- **Gray** — background or inactive visuals
+
+**Font Guidelines**
+
+- Title: Segoe UI Semibold 18 pt
+
+- Labels: Segoe UI Regular 11 pt
+
+- KPIs: Segoe UI Semibold 24–32 pt
