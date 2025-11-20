@@ -70,15 +70,15 @@ distance_km
 
 5. `forecast_table`
 
-bin_id
+- bin_id
 
-forecast_timestamp
+- forecast_timestamp
 
-predicted_fill
+- predicted_fill
 
-lower_bound
+- lower_bound
 
-upper_bound
+- upper_bound
 
 6. `zone_summary`** (materialized view)**
 
