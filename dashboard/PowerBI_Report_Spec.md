@@ -33,3 +33,57 @@ The report contains **five pages:**
 - capacity
 
 - geom (WKT or lat/lon) 
+
+2. `sensor_logs`
+
+- log_id
+
+- bin_id
+
+- fill_level
+
+- timestamp
+
+- temperature
+
+- raw_message
+
+3. `gps_logs`
+
+id
+
+truck_id
+
+lat, lon
+
+speed
+
+gps_time
+
+4. `bin_distance `(optional)
+
+bin_from
+
+bin_to
+
+distance_km
+
+5. `forecast_table`
+
+bin_id
+
+forecast_timestamp
+
+predicted_fill
+
+lower_bound
+
+upper_bound
+
+6. `zone_summary`** (materialized view)**
+
+zone_id
+
+avg_fill_level
+
+bin_count
