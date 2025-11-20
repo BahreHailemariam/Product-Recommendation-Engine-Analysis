@@ -117,3 +117,65 @@ The report contains **five pages:**
 - Labels: Segoe UI Regular 11 pt
 
 - KPIs: Segoe UI Semibold 24–32 pt
+
+
+## 📄 4. Page-by-Page Specifications
+## 4.1 Page 1 — Operational Overview
+### 🎯 Purpose
+
+Provide executives with real-time KPIs and trends on waste collection operations.
+
+### 📊 Required Visuals
+**1️⃣ KPI Cards**
+
+- Total Bins
+
+Average Fill Level (%)
+
+Number of Overflow Alerts
+
+Daily Tonnes Collected
+
+Avg Pickup Frequency (days)
+
+**2️⃣ Fill Level Trend (Line Chart)**
+
+X-axis: timestamp
+
+Y-axis: Avg fill level
+
+Legend: zone (optional)
+
+**3️⃣ Bin Capacity Utilization (Donut Chart)**
+
+Buckets:
+
+0–30%
+
+30–60%
+
+60–80%
+
+80–100% (overflow risk)
+
+**4️⃣ Top 10 Critical Bins (Table)**
+
+Columns:
+
+bin_id
+
+zone
+
+last_fill_level
+
+last_pickup_date
+
+predicted_fill (optional)
+
+**5️⃣ Truck Activity Summary**
+
+Bar chart: Avg speed per truck
+
+Line chart: Distance traveled per day
+
+KPI: Total idle time
